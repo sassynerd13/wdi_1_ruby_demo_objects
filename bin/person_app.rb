@@ -16,8 +16,3 @@ puts tom.inspect
 tom.age = 25
 
 puts "Tom's fullname is #{tom.full_name} and is #{tom.age} years old"
-
-msg = "Tom #{tom.give_insurance? ? "should" : "shouldn't"} get insurance."
-
-puts msg
-
